@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@loadable/component": "^5.10.3",
     "gatsby": "^2.16.1",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-manifest": "^2.2.23",
@@ -15,6 +16,7 @@
     "gatsby-transformer-sharp": "^2.2.23",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1"
   },

@@ -1,0 +1,42 @@
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  width: 100%;
+}
+
+.next,
+.prev {
+  position: absolute;
+  top: calc(50% - 12px);
+
+  height: 24px;
+  border-radius: 24px;
+}
+
+.next {
+  right: 0;
+}
+
+.fade-enter.fade-enter-active,
+.fade-leave.fade-leave-active {
+  transition: all 0.9s ease;
+  overflow: hidden;
+  visibility: visible;
+  position: absolute;
+  width: 100%;
+  opacity: 1;
+}
+
+.fade-enter,
+.fade-leave {
+  visibility: hidden;
+  width: 100%;
+  opacity: 0.1;
+}
+
+img {
+  height: inherit;
+  width: 100%;
+}
